@@ -5,37 +5,45 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
 }
+
 .myContainer{
-    justify-content: center;
-    background-image: url(../images/campusBG.png);
-    background-size: 100% auto;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url("../images/campusBG.png");
+    background-size: cover;
     height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.myContainer > div{
+    width: 40%;
+    height: 60%;
+    align-items: center;
+
 }
 .myTemplate{
+    width: 90%;
     background-color: rgba(255, 255, 255, 0.82);
-    width: 40em;
-    align-items: center;
     padding: 2em;
     border-radius: 1em;
-    height: 50%;
-    justify-content: space-around;
-}
-.myTemplate h2{
-    margin: 0 auto;
-}
-.myForm{
     height: 100%;
-    width: 100%;
+    justify-content: space-evenly;
 }
 form{
-    justify-content: space-evenly;
-    height: 100%;
-    width: 90%;
-    align-items: center;
-    margin: 0 auto;
+    width: 95%;
 }
-form input{
-    width: 90%;
+.myPass{
+    text-align: center;
+}
+.myPass a{
+    color: #eba420;
+    font-size: .8em;
+    font-weight: 600;
+}
+button{
+    width: 100%;
+    padding: .5em 0 .5em 0;
+    outline: none;
+    border: none;
+    border-radius: .5em;
+    background-color: #eba420;
+    color: white;
 }
