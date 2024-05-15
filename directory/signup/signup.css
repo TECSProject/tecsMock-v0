@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+
+}
+.myContainer{
+    background-image: url("../images/campusBG.png");
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.myContainer > div{
+    width: 50%;
+    align-items: center;
+}
+.myTemplate{
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.82);
+    padding: 2em;
+    border-radius: 1em;
+}
+button{
+    width: 100%;
+    padding: .5em 0 .5em 0;
+    outline: none;
+    border: none;
+    border-radius: .5em;
+    background-color: #eba420;
+    color: white;
+}
+p.myTerms{
+    font-size: .7em;
+    font-weight: 500;
+}
+p.myTerms a{
+    font-weight: 600;
+    color: #eba420;
+}
+.myAddInfo{
+    font-size: small;
+
+}
+    
